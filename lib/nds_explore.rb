@@ -11,14 +11,14 @@ end
 
 def print_first_directors_movie_titles
   
-  # imdb = directors_database[0][:movies]
+  imdb = directors_database[0][:movies]
   
-  # row_index = 0 
-  # while row_index < imdb.length do 
-  #   movie_titles = imdb[row_index][:title]
-  #   puts movie_titles
-  #   row_index += 1 
-  # end
+  row_index = 0 
+  while row_index < imdb.length do 
+    movie_titles = imdb[row_index][:title]
+    puts movie_titles
+    row_index += 1 
+  end
   
   # really not sure i did this correctly
   
